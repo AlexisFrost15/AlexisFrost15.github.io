@@ -1,0 +1,33 @@
+body {
+    background-color:beige
+}
+#first-paragraph {
+    color:blue;
+    background-color:darkred;
+    font-style: italic;
+    text-align: right;
+}
+#second-paragraph {
+    color: #ff0000;
+    background-color:lightpink;
+    font-size:24px;
+    text-decoration: underline;
+}
+#third-paragraph {
+    font-weight: bold;
+    background-color: #fea620;
+}
+#span1 {
+    color:darkgreen;
+    font-weight:bold;
+    font-size:48px;
+}
+#span2 {
+    color:darkred;
+    font-style:italic;
+    text-decoration:line-through
+}
+#span3 {
+    color:burlywood;
+    font-style:italic
+}
