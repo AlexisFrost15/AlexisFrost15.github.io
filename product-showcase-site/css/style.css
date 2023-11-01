@@ -1,0 +1,31 @@
+h1 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: purple;
+}
+.Main {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p-1 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+}
+.p-2 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+}
+.photos {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.oatmeal, .apple, .soft {
+    width: 400px;
+}
