@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
+    background-color: rgb(20, 29, 29);
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 #grid-layout {
     display: grid;
@@ -20,11 +21,11 @@ body {
     text-decoration: none;
 }
 #header #me {
-    color: #111;
+    color: white;
 }
 #header #tube {
     color: white;
-    background-color:greenyellow;
+    background-color:rgb(102, 0, 255);
     padding: 4px;
     border-radius: 12px;
 }
@@ -40,7 +41,7 @@ body {
 }
 #sidebar ul a {
     text-decoration: none;
-    color: #111;
+    color: white;
     display: block;
     padding: 12px;
 }
@@ -61,20 +62,25 @@ body {
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16 / 9;
     border-radius: 8px;
-   width: fit-content;
+    width: fit-content;
 }
 .metube-item h4 {
     margin: 8px;
 }
 .metube-item h4 a {
     text-decoration: none;
-    color: #111;
+    color: white;
     display: block;
 }
 .metube-item .video-details {
     margin: 8px;
     font-size: 14px;
+    color: white;
 }
 .metube-item .video-channel {
     margin-bottom: 4px;
+}
+.thumbnail-placeholder img {
+    width: 100%;
+    height: 100%;
 }
