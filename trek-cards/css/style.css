@@ -31,16 +31,13 @@ body {
 }
 .card-style-1 img {
     width: 100%;
-    height: 220px;
+    height: 270px;
     object-fit: cover;
-}
-.card-style-1 h2 {
-    margin-top: 12px;
 }
 .card-style-1 p {
     font-size: 15px;
     text-align: left;
-    padding: 12px 20px 3px 20px;
+    padding: 5px 20px 3px 20px;
 }
 
 .card-style-1 a {
