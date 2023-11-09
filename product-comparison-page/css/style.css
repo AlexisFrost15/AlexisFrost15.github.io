@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#main-section, #last-section {
+    background-color: rgb(237, 0, 0);
+        padding: 48px;
+}
+#card-section {
+    background-color: rgb(8, 0, 237);
+    color: #fafcfd;
+    padding: 48px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    flex: 1;
+    border: 10px solid rgb(239, 7, 7);
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    border-radius: 50%;
+}
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+.side-by-side .image-container img {
+    width: 100%;
+}
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+.side-by-side .text-container h3 {
+    font-size: 36px;
+}
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #120791;
+    color: white;
+    padding: 24px 48px;
+    border-radius: 48px;
+}
+.comparisons-container {
+    text-align: center;
+    margin: 60px 0px;
+}
+.comparisons-container h3 {
+    font-size: 36px;
+}
+.comparisons-layout-1 {
+    display: flex;
+    justify-content: center;
+}
+.comparisons-layout-1 .comparison-column {
+    padding: 24px;
+}
+.comparisons-layout-1 .comparison-column h4, 
+.comparisons-layout-1 .comparison-column p {
+    padding: 24px 48px;
+}
+.comparisons-layout-1 .comparison-column h4 {
+    background-color: #040404;
+    color: #faf6f6;
+    font-size: 24px;
+    margin: 0px;
+}
+.comparisons-layout-1 .comparison-column p {
+    font-size: 18px;
+    margin: 0px;
+    border: 24px solid rgb(0, 0, 0);
+    color: white;
+}
+.comparisons-layout-1 .comparison-column .label {
+    display: block;
+    font-weight: bold;
+    padding: 12px;
+}
+.comparisons-layout-2 {
+    padding: 36px;
+}
+.comparison-row {
+    display: flex;
+    border: 3px solid #fcfdfd;
+    color: #fdfeff;
+    background-color: red;
+}
+.comparison-header {
+    font-weight: bold;
+}
+.comparison-row div {
+    flex: 1;
+    padding: 24px;
+    font-size: 24px;
+}
+.comparisons-layout-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.comparisons-layout-3 div {
+    padding: 24px;
+    font-size: 24px;
+}
+.comparisons-layout-3 .label {
+    font-weight: bold;
+}
