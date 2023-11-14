@@ -1,0 +1,82 @@
+#water-tribe {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#p1-c1 {
+    background-color: #5DFDCB;
+    padding: 24px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+#p1-c2 {
+    background-color: #90D7FF;
+    padding: 24px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+#p1-c3 {
+    background-color: #C9F9FF;
+    padding: 24px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+#p1-c4 {
+    background-color: #BFD0E0;
+    padding: 24px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+#Fireman {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#p2-c1 {
+    background-color: #D90429;
+    padding: 24px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+#p2-c2 {
+    background-color: #8D99AE;
+    padding: 24px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+#p2-c3 {
+    background-color: #EDF2F4;
+    padding: 24px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+#Berries {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#p3-c1 {
+    background-color: #392759;
+    padding: 24px;
+    text-align: left;
+    font-family: monospace;
+    color: black;
+}
+#p3-c2 {
+    background-color: #F21B3F;
+    padding: 24px;
+    text-align: left;
+    font-family: monospace;
+    color: black;
+}
+#p3-c3 {
+    background-color: #0E273C;
+    padding: 24px;
+    text-align: left;
+    font-family: monospace;
+    color: black;
+}
