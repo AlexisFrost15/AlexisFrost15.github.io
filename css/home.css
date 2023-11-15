@@ -7,14 +7,6 @@ body {
     background-color: black;
     color: wheat;
 }
-a {
-    background-color: crimson;
-    border: 5px solid black;
-    border-style: outset;
-    border-radius: 15%;
-    padding: 7px;
-    margin: 50px;
-}
 #navi {
     background-color: crimson;
     border: 10px solid wheat;
