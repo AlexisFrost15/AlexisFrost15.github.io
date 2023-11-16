@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+#gallery1, #gallery2, #gallery3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+#gallery1 .card a:hover {
+    background-color: blue;
+    box-shadow: 4px 4px 4px grey;
+    transform: translateY(-4px);
+}
+#gallery1 .card a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid blue;
+    padding: 12px;
+    margin-top: 36px;
+}
+#card1:hover {
+    background-color: yellow;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+#card1 {
+    transition: 
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+#card2:hover {
+    background-color: yellow;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+#card2 {
+    transition: 
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+#card3:hover {
+    background-color: yellow;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+#card3 {
+    transition: 
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+#card4:hover {
+    background-color: yellow;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+#card4 {
+    transition: 
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+#card5, #card6, #card7, #card8 {
+    background-color: orange;
+}
+#card5 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+}
+#card5:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+#card6 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+}
+#card6:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+}
+#card7 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+}
+#card7:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+}
+#card8 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+}
+#card8:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+}
+#card9 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+#card9 .card-front, 
+#card9 .card-back {
+    border:3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+#card9 .card-back {
+    transform: scaleX(0);
+}
+#card9 .card-front {
+    background-image: url(../images/MicrosoftTeams-image\ \(7\).png);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+}
+#card9 .card-front {
+    transition: transform 0.25s 0.25s;
+}
+#card9 .card-back {
+    transition: transform 0.25s;
+}
+#card9:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+#card9:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+#card9 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+#card9 .card-front, 
+#card9 .card-back {
+    border:3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+#card9 .card-back {
+    transform: scaleX(0);
+}
+#card9 .card-front {
+    background-image: url(../images/scissors.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+}
+#card9 .card-front {
+    transition: transform 0.25s 0.25s;
+}
+#card9 .card-back {
+    transition: transform 0.25s;
+}
+#card9:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+#card9:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+#card10 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+#card10 .card-front, 
+#card10 .card-back {
+    border:3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+#card10 .card-back {
+    transform: scaleX(0);
+}
+#card10 .card-front {
+    background-image: url(../images/volcanoe.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+}
+#card10 .card-front {
+    transition: transform 0.25s 0.25s;
+}
+#card10 .card-back {
+    transition: transform 0.25s;
+}
+#card10:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+#card10:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+#card11 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+#card11 .card-front, 
+#card11 .card-back {
+    border:3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+#card11 .card-back {
+    transform: scaleX(0);
+}
+#card11 .card-front {
+    background-image: url(../images/paper.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+}
+#card11 .card-front {
+    transition: transform 0.25s 0.25s;
+}
+#card11 .card-back {
+    transition: transform 0.25s;
+}
+#card11:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+#card11:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+#card12 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+#card12 .card-front, 
+#card12 .card-back {
+    border:3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+#card12 .card-back {
+    transform: scaleX(0);
+}
+#card12 .card-front {
+    background-image: url(../images/rock.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+}
+#card12 .card-front {
+    transition: transform 0.25s 0.25s;
+}
+#card12 .card-back {
+    transition: transform 0.25s;
+}
+#card12:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+#card12:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+#gallery3 .card a:hover {
+    background-color: green;
+    border: 3px solid white;
+    color: red;
+    text-decoration: none;
+}
+#gallery3 .card a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
