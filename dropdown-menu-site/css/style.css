@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar {
+    background-color: gold;
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+#navbar a:hover {
+    background-color: green;
+}
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+     visibility: hidden;
+     opacity: 0;
+     transition: 
+     opactiy 0.25s,
+     visibility 0.25s;
+}
+.dropdown-container:last-child .dropdown-menu {
+    right: 0.25s;
+    text-align: right;
+}
+.dropdown-container:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+}
+.dropdown-menu a {
+    background-color: darkgoldenrod;
+    width: 100%;
+    min-width: 200px;
+}
+.dropdpwn-menu a:hover {
+    background: darkgoldenrod;
+}
+#hero-1 {
+    background-image: url(../images/herocat.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+#hero-1 h1 {
+    font-size: 48px;
+    color:orange;
+    width: 250px;
+    margin-right: 24px;
+}
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.light-container {
+    padding: 48px 0px;
+}
+.single-column img {
+    width: 100%;
+}
+.single-column p {
+    margin: 24px;
+    padding: 24px;
+}
