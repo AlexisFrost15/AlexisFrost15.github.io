@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: lightyellow;
 }
 #navbar {
     background-color: gold;
@@ -84,4 +85,6 @@ body {
 .single-column p {
     margin: 24px;
     padding: 24px;
+    font-weight: bold;
+    color: orange;
 }
