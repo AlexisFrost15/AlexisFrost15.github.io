@@ -68,7 +68,7 @@ body {
     padding-top: 13px;
     padding-bottom: 12px;
 }
-#navbar a:hover {
+#icon:hover, #navbar a:hover {
     background-color: #00494b;
 }
 .fa-solid {
@@ -127,7 +127,7 @@ body {
     width: 200px;   
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     .hero-1 h1 {
         font-size:1.625rem;
     }
