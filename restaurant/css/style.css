@@ -127,6 +127,65 @@ body {
     width: 200px;   
 }
 
+@media screen and (min-width: 480px) {
+    .hero-1 h1 {
+        font-size:1.625rem;
+    }
+    .hero-1 a {
+        display: block;
+        font-size: 1.125rem;
+    }
+    #quote {
+        height: auto;
+        flex-direction: column;
+    }
+    #quote h3 {
+        height: 200px;
+        width: 100%;
+        flex: auto;
+    }
+    #navbar {
+        flex: auto;
+    }
+    #navbar {
+        background-color: #ffde17;
+        display: flex;
+        align-items: center;
+    }
+    #navbar a {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        padding: 24px;
+    }
+    #navbar #logo {
+        margin-right: auto;
+        font-weight: bold;
+        font-size: 24px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    #navbar a:hover {
+        background-color: #00494b;
+    }
+    #footer-navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer-columns-navbar {
+        width: 300px;
+        margin: 0px auto;
+        padding: 12px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #footer-columns-navbar div {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+    
 
 
 
