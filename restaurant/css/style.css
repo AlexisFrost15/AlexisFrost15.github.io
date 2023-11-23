@@ -90,9 +90,9 @@ body {
     color: white;
 }
 #footer-columns-navbar {
-    width: 800px;
     margin: 0px auto;
     padding: 48px 0px;
+    padding-right: 36px;
     display: flex;
     justify-content: space-between;
 }
@@ -104,7 +104,7 @@ body {
     padding: 8px 0px;
 }
 .menu-items {
-    width: 50%;
+    width: 70%;
     min-width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -116,7 +116,19 @@ body {
 }
 .menu-items h1 {
     text-align: center;
-    display: grid;
+}
+.menu-items ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-items li {
+    padding: 8px;
+    flex: 30%
+}
+.menu-items img {
+    width: 50%;
+    align-items: left;
 }
 
 #side-dessert {
@@ -124,10 +136,27 @@ body {
     margin: 0px 36px;
 }
 .logo {
-    width: 200px;   
+    width: 200px;
+      
+}
+#pie a {
+    font-size: 24px;
+    background-color: #ffde17;
+    color: #00494b;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 50%; 
+}
+#pie a:hover {
+    font-size: 24px;
+    background-color: #00494b;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 50%; 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
     .hero-1 h1 {
         font-size:1.625rem;
     }
@@ -146,6 +175,7 @@ body {
     }
     #navbar {
         flex: auto;
+        flex-direction: column;
     }
     #navbar {
         background-color: #ffde17;
@@ -169,6 +199,7 @@ body {
         background-color: #00494b;
     }
     #footer-navbar {
+        width: 300px;
         flex-direction: column;
         align-items: center;
     }
@@ -177,11 +208,20 @@ body {
         margin: 0px auto;
         padding: 12px 0px;
         display: flex;
-        justify-content: space-between;
+        flex-direction:column;
     }
     #footer-columns-navbar div {
         display: flex;
         flex-direction: column;
+    }
+    #grid-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 36px 0px;
+    }
+    .menu-items li {
+        padding: 8px;
+        flex: 50%
     }
 }
 
