@@ -21,6 +21,39 @@
             of the options below.
         </p>
         </div>
+        <form method="post" 
+            action="https://getform.io/f/3efc32c1-3cc7-411a-9666-6f203b2ac917">
+            <div>
+                <label for="services_id">
+                    What can I help you with?
+                </label>
+                <select id="services_id" name="service-selection">
+                    <option id="default_option"
+                            value="none"
+                            disabled
+                            selected
+                    >
+                    Select what I can help you with?
+                </option>
+                <option value="inquiries">
+                    Inquiries
+                </option>
+                <option value="services">
+                    Services
+                </option>
+                </select>
+            </div>
+            <div>
+                <label for="message_id">Message</label>
+                <textarea 
+                        id="message_id"
+                        name="message"
+                        placeholder="I would like you to..."></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send">
+            </div>
+        </form>
         <h3>Contact Options</h3>
         <div>
             <ul>

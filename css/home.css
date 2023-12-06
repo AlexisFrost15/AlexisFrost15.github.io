@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-size: 36px;
 }
 body {
     margin: 0px;
@@ -92,7 +93,7 @@ h4 {
     justify-content: center;
 }
 .card {
-    width: 300px;
+    flex: 200px;
     margin: 24px;
     border: 2px solid  rgb(176, 23, 23);
     border-radius: 10px;
@@ -133,7 +134,7 @@ h4 {
     color: white;
 }
 .card-3 {
-    width: 300px;
+    flex: 200px;
     margin: 24px;
     border: 2px solid  rgb(176, 23, 23);
     border-radius: 10px;
@@ -174,7 +175,7 @@ h4 {
     color: white;
 }
 .card-2 {
-    width: 300px;
+    flex: 200px;
     margin: 24px;
     border: 2px solid  rgb(176, 23, 23);
     border-radius: 10px;
