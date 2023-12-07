@@ -77,9 +77,13 @@ h4 {
     gap: 15px;
 }
 #gallery-portfolio img {
-    height: 250px;
-    flex: 200px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
+}
+#gallery-portfolio div {
+    flex: 250px;
+    height: 250px;
 }
 .about-me:hover, .contact:hover, .gallery:hover, .index:hover {
     background-color:  rgb(176, 23, 23);
@@ -316,8 +320,12 @@ h3 {
     #navi {
         flex-direction: column;
         text-align: center;
-        
-        
     }
-    
+    #navi a {
+        display: inline-block;
+        text-decoration: none;
+        color: wheat;
+        padding: 12px;
+        margin-left: 0px;
+    }
 }
