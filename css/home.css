@@ -78,7 +78,7 @@ h4 {
 }
 #gallery-portfolio img {
     height: 250px;
-    flex: 1;
+    flex: 200px;
     object-fit: cover;
 }
 .about-me:hover, .contact:hover, .gallery:hover, .index:hover {
@@ -98,7 +98,6 @@ h4 {
     border: 2px solid  rgb(176, 23, 23);
     border-radius: 10px;
     padding: 10px;
-    box-shadow: -4px 4px 12px white;
     background-color: black;
 }
 .card img {
@@ -139,7 +138,6 @@ h4 {
     border: 2px solid  rgb(176, 23, 23);
     border-radius: 10px;
     padding: 10px;
-    box-shadow: -4px 4px 12px white;
     background-color: black;
 }
 .card-3 img {
@@ -180,7 +178,6 @@ h4 {
     border: 2px solid  rgb(176, 23, 23);
     border-radius: 10px;
     padding: 10px;
-    box-shadow: -4px 4px 12px white;
     background-color: black;
 }
 .card-2 img {
