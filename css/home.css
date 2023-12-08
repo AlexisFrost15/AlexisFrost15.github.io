@@ -74,7 +74,7 @@ h4 {
 #gallery-portfolio {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
 }
 #gallery-portfolio img {
     height: 100%;
@@ -82,11 +82,24 @@ h4 {
     object-fit: cover;
 }
 #gallery-portfolio div {
-    flex: 250px;
+    flex: 300px;
     height: 250px;
+}
+.spacer h3 {
+    font-size: 36px;
 }
 .about-me:hover, .contact:hover, .gallery:hover, .index:hover {
     background-color:  rgb(176, 23, 23);
+}
+#skills ul {
+    list-style-type: none;
+}
+#skills h3 {
+    font-size: 36px;
+    text-decoration: underline;
+}
+#skills {
+    text-align: center;
 }
 #card-info {
     width: 90vw;
@@ -234,10 +247,18 @@ h4 {
     display: block;
     width: 100%;
     margin: 24px;
+    text-align: center;
+}
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
 }
  .red .mars {
-     display: inline-block;
-     width: 50%;
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+     
  }
  span {
      font-style: italic;
