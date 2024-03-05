@@ -19,3 +19,20 @@ body {
 .basic-grid-gallery img {
     width: 100%;
 }
+@media screen and (max-width:768px)
+{
+    .two-cards, .three-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    #nav {
+        display: flex;
+        flex-direction: column;
+    }
+    #nav #nav-links {
+        flex: auto;
+    }
+    #hero {
+        font-size: 1.125rem;
+    }
+}
